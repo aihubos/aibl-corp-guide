@@ -127,3 +127,14 @@ footer.foot b{color:#fff;font-size:16px}footer.foot p{margin-top:10px;font-size:
 .tl{max-width:720px}
 }
 @media(min-width:1000px){.codetbl td:nth-child(6),.grtbl td:nth-child(2){min-width:180px}}
+
+.reco{margin-top:32px;background:var(--ink);color:#fff;border-radius:var(--r);padding:28px 24px}
+.reco .eyebrow{color:#8CB8FF}.reco h3{font-size:clamp(20px,5vw,26px);font-weight:800;letter-spacing:-.02em;line-height:1.35}
+.reco .small{color:#B0B8C1;margin:8px 0 16px}
+.reco ol{margin-left:20px;font-size:15px;color:#D1D6DB}.reco li{margin-top:12px}.reco b{color:#fff}
+.g4{grid-template-columns:1fr}
+.cmp .card h3{font-size:19px}.cmp .price{font-size:26px}
+.cmptbl td:first-child{font-weight:700}
+@media(min-width:720px){.g4{grid-template-columns:1fr 1fr}.reco{padding:36px 40px}}
+@media(min-width:1000px){.g4{grid-template-columns:repeat(4,1fr)}.cmptbl td{min-width:140px}.cmptbl td:first-child{min-width:96px}}
+.reco .lnk{color:#8CB8FF}
